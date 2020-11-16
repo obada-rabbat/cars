@@ -1,0 +1,625 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="img/favicon.png">
+		<!-- Author Meta -->
+		<meta name="author" content="">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>HartsFord - Blog Detail Buy & Sell Market Place</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Mina" rel="stylesheet"> 
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="css/linearicons.css">
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" href="css/magnific-popup.css">
+			<link rel="stylesheet" href="css/nice-select.css">					
+			<link rel="stylesheet" href="css/animate.min.css">
+			<link rel="stylesheet" href="css/owl.carousel.css">
+			<link rel="stylesheet" href="css/main.css">
+		</head>
+		<body>
+
+            <!-- #header Start-->
+			  <header id="header">
+			  	<div class="header-top bg-1">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-7 col-xs-12 hide_column">
+								<div class="header-top-menu">
+									<ul>
+										<li><a href="#">Partners</a></li>
+										<li><a href="#">Community</a></li>
+										<li><a href="sell_a_product.html">Become A Seller</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-lg-5 col-md-12 col-xs-12">
+								<div class="header-top-right text-right">
+									<ul class="account">	
+										<li>
+											<a href="#">
+												<img src="img/boogyman.png" alt="">
+												BoogyMan  <span>$94.01 
+												<i class="fa fa-angle-down"></i></span>
+											</a>
+											<ul class="profile">
+												<li><a href="user_profile.html">User Profile</a></li>
+												<li><a href="upload_products.html">Upload Products</a></li>
+												<li><a href="favourite_products.html">Favourite Products</a></li>
+												<li><a href="change_password.html">Change Password</a></li>
+												<li><a href="manage_products.html">Manage Products</a></li>
+												<li><a href="product_notification.html">Notifications</a></li>
+												<li><a href="product_message.html">Messages</a></li>
+												<li><a href="shopping_cart.html">Shopping Cart</a></li>
+												<li><a href="withdraw.html">Withdraw</a></li>
+												<li><a href="#">Sign Out</a></li>
+											</ul>
+										</li>
+									</ul>
+									<ul class="notification_icons">
+										<li>
+											<a href="#"><i class="fa fa-bell-o"></i><span class="number">11</span></a>
+										</li>
+										<li>
+											<a href="#"><i class="fa fa-envelope-o"></i><span class="number">5</span></a>
+										</li>
+										<li>
+											<a href="#">
+												<i class="fa fa-shopping-basket"></i>
+											</a>
+										</li> 
+
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			    <div class="header-bottom">
+			    	<div class="container">
+				    	<div class="row align-items-center d-flex">
+				    		<div class="col-lg-2 col-md-2">
+				    			<div id="logo">
+							        <a href="index.html"><img src="img/logo.png" alt="" /></a>
+							    </div>
+				    		</div>
+					   		<div class="col-lg-10 col-md-2">				
+						      <nav id="nav-menu-container">
+						        <ul class="nav-menu float-right">
+						          <li class="menu-has-children"><a href="index.html">Home</a>
+						          </li>
+						          <li class="menu-has-children"><a href="">Pages</a>
+						            <ul>
+						            	<li><a href="product_listing.html">Product Listing</a></li>
+										<li><a href="product_listing_detail.html">Product Listing Detail</a></li>
+										<li><a href="search.html">search</a></li>
+										<li><a href="upload_products.html">Upload Products</a></li>
+										<li><a href="favourite_products.html">Favourite Products</a></li>
+										<li><a href="signin.html">Signin Page</a></li>
+										<li><a href="signup.html">Signup Page</a></li>					
+										<li><a href="terms_and_conditions.html">Terms & Conditions</a></li>
+										<li><a href="privcy_policy.html">Privacy Policy</a></li>
+										<li><a href="404.html">404 Page</a></li>
+						            </ul>
+						          </li>
+						          <li class="menu-has-children"><a href="about_us.html">About</a>
+						          </li>  
+						          <li class="menu-has-children"><a href="services.html">Services</a>
+						          </li>
+						          <li class="menu-has-children"><a href="blog_home.html">Blog</a>
+						          	<ul>
+						            	<li><a href="blog_home.html">Blog Page</a></li>
+						            	<li><a href="blog_single.html">Blog Detail</a></li>
+						            </ul>
+						          </li>
+						          
+						          <li class="menu-has-children"><a href="contact.html">Contact</a></li>
+						          <li class="menu-has-children"><a href="sell_a_product.html" class="rounded ml-3 text-white sell-btn">Sell My Car</a>
+						          </li>			        	          
+						        </ul>
+						      </nav><!-- #nav-menu-container -->
+					      </div>	    		
+				    	</div>
+				    </div>
+			    </div>
+			  </header><!-- #header -->
+			
+
+			<!-- start banner Area -->
+			<section class="banner-area relative" id="home">	
+				<div class="overlay overlay-bg"></div>
+				<div class="container">
+					<div class="row d-flex align-items-center justify-content-center">
+						<div class="about-content col-lg-12">
+							<h1 class="text-white">
+								Blog Single				
+							</h1>	
+							<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span> <a href="blog-single.html"> Blog</a> <span class="lnr lnr-arrow-right"></span> <a href="blog-single.html"> Blog Single</a></p>
+						</div>											
+					</div>
+				</div>
+			</section>
+			<!-- End banner Area -->	
+			
+			<!-- Start blog-posts Area -->
+			<section class="blog-posts-area section-gap">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 post-list order-sm-2 blog-post-list">
+							<div class="single-post">
+								<img class="img-fluid" src="img/blog/bheader.jpg" alt="">
+								<ul class="tags">
+									<li><a href="#">Car Dealer ,</a></li>
+									<li><a href="#">Show Room ,</a></li>
+									<li><a href="#">Auto Mobile</a></li>
+								</ul>
+								<a href="#">
+									<h1>
+										Time To Change Your Car
+									</h1>
+								</a>
+								<div class="content-wrap">
+									<p>
+										You will begin to realize why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures as you notice that the idea of this exercise is to hypnotize yourself to be aware of two very real possibilities for your future. Two distinct pathways that you could take for your life this very day. Have a think about something that you do that you are maybe not motivated.
+									</p>
+
+									<p>
+										You will begin to realize why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures as you notice that the idea of this exercise is to hypnotize yourself to be aware of two very real possibilities for your future. Two distinct pathways that you could take for your life this very day. Have a think about something that you do that you are maybe not motivated.
+									</p>
+
+									<blockquote class="generic-blockquote">
+										“Recently, the US Federal government banned online cars purchasing from operating in America by making it illegal to transfer money to them through any US bank or payment system. As a result of this law, most of the popular online car dealer networks such as Third Party And PlayTech left the United States. Overnight, online Car Dealer found themselves being chased by the Federal government.banking” 
+									</blockquote>
+									
+									<p>
+										You will begin to realize why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures as you notice that the idea of this exercise is to hypnotize yourself to be aware of two very real possibilities for your future. Two distinct pathways that you could take for your life this very day. Have a think about something that you do that you are maybe not motivated.
+									</p>
+
+									<p>
+										You will begin to realize why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures as you notice that the idea of this exercise is to hypnotize yourself to be aware of two very real possibilities for your future. Two distinct pathways that you could take for your life this very day. Have a think about something that you do that you are maybe not motivated.
+									</p>									
+
+
+								</div>
+								<div class="bottom-meta mt-3">
+									<div class="user-details row align-items-center">
+										<div class="comment-wrap col-lg-6 col-sm-6">
+											<ul>
+												<li><a href="#"><span class="lnr lnr-heart"></span>	4 likes</a></li>
+												<li><a href="#"><span class="lnr lnr-bubble"></span> 06 Comments</a></li>
+											</ul>
+										</div>
+										<div class="social-wrap col-lg-6">
+											<ul>
+												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+												<li><a href="#"><i class="fa fa-behance"></i></a></li>
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+
+                            <!-- Start nav Area -->
+                            <section class="nav-area pt-50 pb-50">
+                                <div class="container">
+                                    <div class="row justify-content-between">
+                                        <div class="col-sm-6 nav-left justify-content-start d-flex">
+                                            <div class="thumb">
+                                                <img src="img/icon1.png" alt="">
+                                            </div>
+                                            <div class="post-details">
+                                                <p>Prev Post</p>
+                                                <h4 class="text-uppercase"><a href="#">A Discount Toner</a></h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 nav-right justify-content-end d-flex">
+                                            <div class="post-details">
+                                                <p>Prev Post</p>
+                                                <h4 class="text-uppercase"><a href="#">A Discount Toner</a></h4>
+                                            </div>             
+                                            <div class="thumb">
+                                                <img src="img/icon2.png" alt="">
+                                            </div>                         
+                                        </div>
+                                    </div>
+                                </div>    
+                            </section>
+                            <!-- End nav Area -->
+
+                            <!-- Start comment-sec Area -->
+                            <section class="comment-sec-area pt-100 pb-70">
+                                <div class="container">
+                                    <div class="row flex-column">
+                                        <h5 class="text-uppercase pb-30">05 Comments</h5>
+                                        <br>
+                                        <div class="comment-list">
+                                            <div class="single-comment justify-content-between d-flex">
+                                                <div class="user justify-content-between d-flex">
+                                                    <div class="thumb">
+                                                        <img src="img/blog/c1.jpg" alt="">
+                                                    </div>
+                                                    <div class="desc">
+                                                        <h5><a href="#">Emilly Blunt</a></h5>
+                                                        <p class="date">December 4, 2017 at 3:12 pm </p>
+                                                        <p class="comment">
+                                                            Never say goodbye till the end comes!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="reply-btn">
+                                                       <a href="" class="btn-reply text-uppercase">reply</a> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="comment-list left-padding">
+                                            <div class="single-comment justify-content-between d-flex">
+                                                <div class="user justify-content-between d-flex">
+                                                    <div class="thumb">
+                                                        <img src="img/blog/c2.jpg" alt="">
+                                                    </div>
+                                                    <div class="desc">
+                                                        <h5><a href="#">Sarah</a></h5>
+                                                        <p class="date">December 4, 2017 at 3:12 pm </p>
+                                                        <p class="comment">
+                                                            Never say goodbye till the end comes!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="reply-btn">
+                                                       <a href="" class="btn-reply text-uppercase">reply</a> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="comment-list left-padding">
+                                            <div class="single-comment justify-content-between d-flex">
+                                                <div class="user justify-content-between d-flex">
+                                                    <div class="thumb">
+                                                        <img src="img/blog/c3.jpg" alt="">
+                                                    </div>
+                                                    <div class="desc">
+                                                        <h5><a href="#">Robina</a></h5>
+                                                        <p class="date">December 4, 2017 at 3:12 pm </p>
+                                                        <p class="comment">
+                                                            Never say goodbye till the end comes!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="reply-btn">
+                                                       <a href="" class="btn-reply text-uppercase">reply</a> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="comment-list">
+                                            <div class="single-comment justify-content-between d-flex">
+                                                <div class="user justify-content-between d-flex">
+                                                    <div class="thumb">
+                                                        <img src="img/blog/c4.jpg" alt="">
+                                                    </div>
+                                                    <div class="desc">
+                                                        <h5><a href="#">Jessica</a></h5>
+                                                        <p class="date">December 4, 2017 at 3:12 pm </p>
+                                                        <p class="comment">
+                                                            Never say goodbye till the end comes!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="reply-btn">
+                                                       <a href="" class="btn-reply text-uppercase">reply</a> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="comment-list">
+                                            <div class="single-comment justify-content-between d-flex">
+                                                <div class="user justify-content-between d-flex">
+                                                    <div class="thumb">
+                                                        <img src="img/blog/c5.jpg" alt="">
+                                                    </div>
+                                                    <div class="desc">
+                                                        <h5><a href="#">Maria</a></h5>
+                                                        <p class="date">December 4, 2017 at 3:12 pm </p>
+                                                        <p class="comment">
+                                                            Never say goodbye till the end comes!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="reply-btn">
+                                                       <a href="" class="btn-reply text-uppercase">reply</a> 
+                                                </div>
+                                            </div>
+                                        </div>                                                                                                                                                                
+                                    </div>
+                                </div>    
+                            </section>
+                            <!-- End comment-sec Area -->
+                            
+                            <!-- Start commentform Area -->
+                            <section class="commentform-area pt-80">
+                                <div class="container">
+                                    <h5 class="pb-50">Leave a Reply</h5>
+                                    <div class="row flex-row d-flex">
+                                        <div class="col-lg-4 col-md-6 col-sm-6">
+                                            <input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-sm-6">
+                                        	<input name="email" placeholder="Enter your email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your email'" class="common-input mb-20 form-control" required="" type="email">
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-sm-12">
+                                            <input name="Subject" placeholder="Subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your Subject'" class="common-input mb-20 form-control" required="" type="text">
+
+                                        </div>
+                                        <div class="col-lg-12 col-md-12">
+                                            <textarea class="form-control mb-10" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
+                                            <a class="primary-btn mt-20" href="#">Comment</a>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </section>
+                            <!-- End commentform Area -->
+
+
+							</div>																		
+						</div>
+						<div class="col-lg-4 order-sm-1 sidebar">
+							<div class="single-widget search-widget">
+								<form class="example" action="#" style="margin:auto;max-width:300px">
+								  <input type="text" placeholder="Search Posts" name="search2">
+								  <button type="submit"><i class="fa fa-search"></i></button>
+								</form>								
+							</div>
+
+							<div class="single-widget protfolio-widget">
+								<img src="img/icon1.png" alt="">
+								<a href="#"><h4>Adele Gonzalez</h4></a>
+								<p>
+									Two distinct pathways that you could take for your life this very day. Have a think about something that you do that you are maybe not motivated.
+								</p>
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+									<li><a href="#"><i class="fa fa-behance"></i></a></li>
+								</ul>								
+							</div>
+
+							<div class="single-widget category-widget">
+								<h4 class="title">Post Categories</h4>
+								<ul>
+									<li><a href="#" class="justify-content-between align-items-center d-flex"><h6>Sports car</h6> <span>37</span></a></li>
+									<li><a href="#" class="justify-content-between align-items-center d-flex"><h6>Hybrid Vehicles</h6> <span>24</span></a></li>
+									<li><a href="#" class="justify-content-between align-items-center d-flex"><h6>Auto Detail</h6> <span>59</span></a></li>
+									<li><a href="#" class="justify-content-between align-items-center d-flex"><h6>Auto Mobiles</h6> <span>29</span></a></li>
+									<li><a href="#" class="justify-content-between align-items-center d-flex"><h6>Buy A Car</h6> <span>15</span></a></li>
+									<li><a href="#" class="justify-content-between align-items-center d-flex"><h6>Sell A Car</h6> <span>09</span></a></li>
+									<li><a href="#" class="justify-content-between align-items-center d-flex"><h6>Car Showrooms</h6> <span>44</span></a></li>
+								</ul>
+							</div>
+
+                            <div class="single-widget recent-posts-widget">
+								<h4 class="title">Recent Posts</h4>
+								<div class="blog-list ">
+									<div class="single-recent-post d-flex flex-row">
+										<div class="recent-thumb">
+											<img class="img-fluid" src="img/icon1.png" alt="">
+										</div>
+										<div class="recent-details">
+											<a href="blog-single.html">
+												<h4>
+													Time To Change Your Car
+												</h4>
+											</a>
+											<p>
+												02 hours ago
+											</p>
+										</div>
+									</div>	
+									<div class="single-recent-post d-flex flex-row">
+										<div class="recent-thumb">
+											<img class="img-fluid" src="img/icon2.png" alt="">
+										</div>
+										<div class="recent-details">
+											<a href="blog-single.html">
+												<h4>
+													Best Time To Buy
+												</h4>
+											</a>
+											<p>
+												02 hours ago
+											</p>
+										</div>
+									</div>	
+									<div class="single-recent-post d-flex flex-row">
+										<div class="recent-thumb">
+											<img class="img-fluid" src="img/icon1.png" alt="">
+										</div>
+										<div class="recent-details">
+											<a href="blog-single.html">
+												<h4>
+													Replacing A Time To Car Dealer
+												</h4>
+											</a>
+											<p>
+												02 hours ago
+											</p>
+										</div>
+									</div>	
+									<div class="single-recent-post d-flex flex-row">
+										<div class="recent-thumb">
+											<img class="img-fluid" src="img/icon2.png" alt="">
+										</div>
+										<div class="recent-details">
+											<a href="blog-single.html">
+												<h4>
+													Want To Know Pre-Purchase Car Inspection
+												</h4>
+											</a>
+											<p>
+												02 hours ago
+											</p>
+										</div>
+									</div>																																					
+								</div>								
+							</div>
+
+							<div class="single-widget category-widget">
+								<h4 class="title">Post Archive</h4>
+								<ul>
+									<li><a href="#" class="justify-content-between align-items-center d-flex"><h6>Dec '17</h6> <span>37</span></a></li>
+									<li><a href="#" class="justify-content-between align-items-center d-flex"><h6>Nov '17</h6> <span>24</span></a></li>
+									<li><a href="#" class="justify-content-between align-items-center d-flex"><h6>Oct '17</h6> <span>59</span></a></li>
+									<li><a href="#" class="justify-content-between align-items-center d-flex"><h6>Sep '17</h6> <span>29</span></a></li>
+									<li><a href="#" class="justify-content-between align-items-center d-flex"><h6>Aug '17</h6> <span>15</span></a></li>
+									<li><a href="#" class="justify-content-between align-items-center d-flex"><h6>Jul '17</h6> <span>09</span></a></li>
+									<li><a href="#" class="justify-content-between align-items-center d-flex"><h6>Jun '17</h6> <span>44</span></a></li>
+								</ul>
+							</div>			
+
+							<div class="single-widget tags-widget">
+								<h4 class="title">Tag Clouds</h4>
+								 <ul>
+								 	<li><a href="#">Auto Detail</a></li>
+								 	<li><a href="#">Motor Car</a></li>
+								 	<li><a href="#">Car Land</a></li>
+								 	<li><a href="#">Sell Your Car</a></li>
+								 	<li><a href="#">Car Land</a></li>
+								 	<li><a href="#">Test Drives</a></li>
+								 	<li><a href="#">Car Inspection</a></li>
+								 	<li><a href="#">Showrooms</a></li>
+								 	<li><a href="#">Dealer</a></li>
+								 </ul>
+							</div>			
+
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!-- End blog-posts Area -->
+        
+            <!-- start footer Area -->		
+			<footer class="footer-area footer-section">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3  col-md-3 col-sm-6">
+							<div class="single-footer-widget newsletter">
+								<img class="w-50 img-fluid mb-3" src="img/logo.png" alt="">
+								<p>We provide everything you need to build an amazing dealership website developed especially for car sellers dealers or auto motor retailers.</p>
+								<ul class="social-footer">
+									<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+									<li><a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-3  col-md-3 col-sm-6">
+							<div class="single-footer-widget">
+								<h6>Useful Links</h6>
+								<ul class="footer-nav">
+									<li><a href="">Change</a></li>
+									<li><a href="">Replacement</a></li>
+									<li><a href="">Contact Us</a></li>
+									<li><a href="">Pre-Purchase</a></li>
+									<li><a href="">Service</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-3  col-md-3 col-sm-6">
+							<div class="single-footer-widget">
+								<h6>Our Service</h6>
+								<ul class="footer-nav">
+									<li><a href="">Privacy Policy</a></li>
+									<li><a href="">About Us</a></li>
+									<li><a href="">Terms & Conditions</a></li>
+									<li><a href="">Support</a></li>
+									<li><a href="">About</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-3  col-md-3 col-sm-6">
+							<div class="single-footer-widget mail-chimp">
+								<h6 class="mb-20">Keep In Touch</h6>
+								<ul class="footer-nav">
+									<li>
+									<strong><i class="fa fa-map-marker"></i></strong><span class="pl-2">1900 Pico Blvd, New York</span>
+									</li>
+									<li>
+									<strong><i class="fa fa-mobile"></i></strong><span class="pl-2">+48 123 456 789</span>
+									</li>
+									<li>
+									<strong><i class="fa fa-envelope-o"></i></strong><span class="pl-2"><a href="#">example@example.com</a></span>
+									</li>
+								</ul>
+								<div class="section_form">
+                                        <div class="col-auto">
+                                          <div class="input-group mb-2">
+                                            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Enter Your Email">
+                                             <div class="input-group-prepend">
+                                              <div class="input-group-text"><i class="fa fa-paper-plane"></i></div>
+                                            </div>
+                                          </div>
+                                        </div>  
+                                    </div>
+							</div>
+						</div>						
+					</div>	
+				</div>
+			</footer>
+			<div class="copyright1">
+				<div class="container">
+					<div class="row"> 
+						<div class="col-md-6 col-sm-6 col-12">
+							<div class="bottom_footer_info">
+								<p> &copy; Copyright 2018. All rights reserved</p>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6 col-12">
+							<div class="bottom_footer_logo">
+								<ul class="list-inline">
+					                <li class="list-inline-item">
+					                	<a href="#">Privacy policy &nbsp;|</a>
+					                </li>
+					                <li class="list-inline-item">
+					                	<a href="#">Terms And Condition &nbsp;|</a>
+					                </li>
+					                <li class="list-inline-item">
+					                	<a href="#">Contact Us</a>
+					                </li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End footer Area --> 	   		
+
+
+			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+			<script src="js/vendor/bootstrap.min.js"></script>			
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+  			<script src="js/easing.min.js"></script>			
+			<script src="js/hoverIntent.js"></script>
+			<script src="js/superfish.min.js"></script>	
+			<script src="js/jquery.ajaxchimp.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>	
+			<script src="js/owl.carousel.min.js"></script>			
+			<script src="js/jquery.sticky.js"></script>
+			<script src="js/jquery.nice-select.min.js"></script>			
+			<script src="js/parallax.min.js"></script>		
+			<script src="js/mail-script.js"></script>	
+			<script src="js/main.js"></script>	
+		</body>
+	</html>
