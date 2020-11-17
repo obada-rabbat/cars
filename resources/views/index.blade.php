@@ -975,6 +975,7 @@
 @stop
 
 
+<<<<<<< HEAD
 <!-- add aommit -->
 <<<<<<< HEAD
 <!-- obada al kesse -->
@@ -984,3 +985,5 @@
 <!-- add 3rd -->
 <!-- oijiokoio -->
 >>>>>>> 30a8a2fd44adb546a1a24d9d1992f345d10a1b86
+=======
+>>>>>>> 2a5905ed20fd543008f936250a453c9b2b730f61
