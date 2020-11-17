@@ -43,3 +43,7 @@ Route::get('/user_profile','PagesController@user_profile')->name('user-profile')
 Route::get('/withdraw','PagesController@withdraw')->name('withdraw');
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
