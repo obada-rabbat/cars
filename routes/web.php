@@ -18,6 +18,7 @@
 
 // PagesController Routs
 Route::get('/','PagesController@index')->name('home');
+Route::get('/home','PagesController@index')->name('home');
 Route::get('/404','PagesController@eror')->name('eror');
 Route::get('/about_us','PagesController@about_us')->name('about-us');
 Route::get('/blog_home','PagesController@blog_home')->name('blog-home');
@@ -46,4 +47,9 @@ Route::get('/withdraw','PagesController@withdraw')->name('withdraw');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/login', 'HomeController@index')->name('login');
+
+
+// CountryController
+Route::get('add_OriginCountry','CountryController@add')->name('add_OriginCountry');
+Route::POST('store_OriginCountry','CountryController@store')->name('store_OriginCountry');
