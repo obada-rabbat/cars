@@ -29,21 +29,31 @@
                 </a>
                 
 
-                  
-                  <ul class="navbar-nav">
-                                <!-- Dropdown -->
+              <!--OriginCountry Dropdown -->
+                  <ul class="navbar-nav">       
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                            Origin Country
+                                Origin Country
                             </a>
-                        <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Add</a>
-                        <a class="dropdown-item" href="#">All</a>
-                      </div>
-                    </li>
-                     </ul>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Add</a>
+                                <a class="dropdown-item" href="#">All</a>
+                            </div>
+                        </li>
+                    </ul>
 
-
+                <!--Owner Dropdown -->
+                  <ul class="navbar-nav">       
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                Owner
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Add</a>
+                                <a class="dropdown-item" href="#">All</a>
+                            </div>
+                        </li>
+                    </ul>
 
 
 
