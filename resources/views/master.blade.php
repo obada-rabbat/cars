@@ -103,7 +103,7 @@
 					   		<div class="col-lg-10 col-md-2">				
 						      <nav id="nav-menu-container">
 						        <ul class="nav-menu float-right">
-						          <li class="menu-has-children"><a href="{{route('home')}}">Home</a>
+						          <li class="menu-has-children"><a href="{{route('hom')}}">Home</a>
 						          </li>
 						          <li class="menu-has-children"><a href="">Pages</a>
 						            <ul>
