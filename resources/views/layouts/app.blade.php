@@ -36,9 +36,11 @@
                                 Origin Country
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Add</a>
-                                <a class="dropdown-item" href="#">All</a>
-                            </div>
+
+                            <a class="dropdown-item" href="{{route('add-origincountry')}}">Add</a>
+                            <a class="dropdown-item" href="#">All</a>
+                          </div>
+
                         </li>
                     </ul>
 

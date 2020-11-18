@@ -47,12 +47,13 @@ Route::get('/withdraw','PagesController@withdraw')->name('withdraw');
 
 Auth::routes();
 
-Route::get('/login', 'HomeController@index')->name('login');
+Route::get('/home', 'HomeController@index')->name('home');
 
 
 // CountryController
 Route::get('/origin_country/add','CountryController@add')->name('add-origincountry');
 Route::post('/origin_country/store','CountryController@store')->name('store-origincountry');
+
 
 
 

@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use app\origin_country
+use App\Origin_Country;
 class CountryController extends Controller
 {
     public function add()
@@ -12,9 +12,9 @@ class CountryController extends Controller
     }
     public function store(Request $req)
     {
-    	$or=new Origin_Country;
-    	$or->name=$req->name;
-    	$or->save();
+    	$origin_country=new Origin_Country;
+    	$origin_country->name=$req->name;
+    	$origin_country->save();
     	return back();
     }
 }
