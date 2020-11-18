@@ -53,8 +53,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 // CountryController
 Route::get('/origin_country/add','CountryController@add')->name('add-origincountry');
 Route::post('/origin_country/store','CountryController@store')->name('store-origincountry');
-
-
+Route::get('/origin_country/all','CountryController@all')->name('all-origincountry');
+Route::get('/origin_country/update/{id}','CountryController@update')->name('update-origincountry');
 
 
 // OwnerController Routs
