@@ -51,5 +51,5 @@ Route::get('/login', 'HomeController@index')->name('login');
 
 
 // CountryController
-Route::get('add_OriginCountry','CountryController@add')->name('add_OriginCountry');
-Route::POST('store_OriginCountry','CountryController@store')->name('store_OriginCountry');
+Route::get('/origin_country/add','CountryController@add')->name('add-origincountry');
+Route::post('/origin_country/store','CountryController@store')->name('store-origincountry');

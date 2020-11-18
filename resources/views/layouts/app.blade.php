@@ -37,7 +37,7 @@
                             </a>
 
                             <div class="dropdown-menu">
-                            <a class="dropdown-item" href="{{route('add_OriginCountry')}}">Add</a>
+                            <a class="dropdown-item" href="{{route('add-origincountry')}}">Add</a>
                             <a class="dropdown-item" href="#">All</a>
                           </div>
                         </li>
