@@ -8,7 +8,7 @@
                 <div class="card-header"><center><h4>Add Origin_Country</h4></center></div>     
                 </div>
                 <p></p>
-                <form action="{{route('store_OriginCountry')}}" method="POST">
+                <form action="{{route('store-origin-country')}}" method="POST">
                     @csrf
                       <div class="form-group">
                         <label for="origin_country">Add origin_country</label>

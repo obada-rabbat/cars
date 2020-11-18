@@ -35,15 +35,12 @@
                             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                                 Origin Country
                             </a>
-
                             <div class="dropdown-menu">
-                            <a class="dropdown-item" href="{{route('add_OriginCountry')}}">Add</a>
-                            <a class="dropdown-item" href="#">All</a>
-                          </div>
+                                <a class="dropdown-item" href="#">Add</a>
+                                <a class="dropdown-item" href="#">All</a>
+                            </div>
                         </li>
-                 </ul>
-
-
+                    </ul>
 
                 <!--Owner Dropdown -->
                   <ul class="navbar-nav">       
@@ -52,8 +49,8 @@
                                 Owner
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Add</a>
-                                <a class="dropdown-item" href="#">All</a>
+                                <a class="dropdown-item" href="{{route('add-owner')}}">Add Owner</a>
+                                <a class="dropdown-item" href="#">All Owners</a>
                             </div>
                         </li>
                     </ul>
