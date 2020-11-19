@@ -52,7 +52,7 @@
                             </a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="{{route('add-owner')}}">Add Owner</a>
-                                <a class="dropdown-item" href="#">All Owners</a>
+                                <a class="dropdown-item" href="{{route('all-owners')}}">All Owners</a>
                             </div>
                         </li>
                     </ul>

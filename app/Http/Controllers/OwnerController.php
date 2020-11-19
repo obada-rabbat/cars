@@ -19,7 +19,19 @@ class OwnerController extends Controller
     	$owner->name = $req->name;
     	$owner->save();
 
-    	return back();
+    	return redirect('/owner/all');
+    }
+
+    public function all()
+    {
+    	$owner=Owner::all();
+    	return view ('admin.owner.all',compact('owner'));
+    }
+
+    public function edit($id)
+    {
+    	$owner = Owner::where('id','=',$id)->first();
+    	return view('admin.owner.edit',compact('owner'));
     }
 
 

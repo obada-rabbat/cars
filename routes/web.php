@@ -61,5 +61,9 @@ Route::get('/origin_country/update/{id}','CountryController@update')->name('upda
 Route::get('/owner/add','OwnerController@add')->name('add-owner');
 Route::post('/owner/store','OwnerController@store')->name('store-owner');
 
+Route::get('/owner/all','OwnerController@all')->name('all-owners');
+
+Route::get('/owner/edit/{id}','OwnerController@edit')->name('edit-owner');
+
 
 
