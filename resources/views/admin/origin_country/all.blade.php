@@ -23,7 +23,7 @@
                           <tr>
                             <td>{{$country->id}}</td>
                             <td>{{$country->name}}</td>
-                            <td> <a href="/origin_country/update/{{$country->id}}" class="btn btn-success">Edit</a> <a href="" class="btn btn-danger">Delte</a></td>
+                            <td> <a href="/origin_country/update/{{$country->id}}" class="btn btn-success">Edit</a> <a href="/origin_country/delete/{{$country->id}}" class="btn btn-danger">Delte</a></td>
                           </tr>
                           @endforeach
                         </tbody>
