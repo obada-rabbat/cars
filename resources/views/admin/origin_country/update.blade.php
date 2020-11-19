@@ -9,7 +9,7 @@
                 </div>
                 <p></p>
 
-                <form action="" method="POST">
+                <form action="/origin_country/update/{{$origin_country->id}}" method="POST">
                     @csrf
                       <div class="form-group">
                         <label for="origin_country">Edit origin_country</label>

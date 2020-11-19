@@ -22,9 +22,22 @@ class CountryController extends Controller
         $origin_country=Origin_Country::all();
         return view('admin.origin_country.all',compact('origin_country'));
     }
-    public function update($id)
+    public function edit($id,Request $req)
     {   
         $origin_country=Origin_Country::where('id','=',$id)->first();
         return view('admin.origin_country.update',compact('origin_country'));
+    }
+    public function update($id,Request $req)
+    {
+        $origin_country=Origin_Country::find($id);
+        $origin_country->name=$req->name;
+        $origin_country->save();
+        return redirect('/origin_country/all');
+    }
+    public function delete($id)
+    {
+        $origin_country=Origin_Country::find($id);
+        $origin_country -> delete();
+        return redirect('/origin_country/all');
     }
 }

@@ -54,7 +54,9 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/origin_country/add','CountryController@add')->name('add-origincountry');
 Route::post('/origin_country/store','CountryController@store')->name('store-origincountry');
 Route::get('/origin_country/all','CountryController@all')->name('all-origincountry');
-Route::get('/origin_country/update/{id}','CountryController@update')->name('update-origincountry');
+Route::get('/origin_country/update/{id}','CountryController@edit')->name('update-origincountry');
+Route::post('/origin_country/update/{id}','CountryController@update')->name('update-origincountry');
+Route::get('/origin_country/delete/{id}','CountryController@delete')->name('delete-origincountry');
 
 
 // OwnerController Routs
